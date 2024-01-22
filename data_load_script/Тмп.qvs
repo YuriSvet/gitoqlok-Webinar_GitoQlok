@@ -1,0 +1,8 @@
+///$tab Тмп
+Тмп_Period:
+LOAD * INLINE [
+Period, PeriodList
+43374,201810
+43405,201811
+43435,201812
+];

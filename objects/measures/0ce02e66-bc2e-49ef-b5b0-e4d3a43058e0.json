@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "0ce02e66-bc2e-49ef-b5b0-e4d3a43058e0",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выручка Прогноз (в валюте)",
+    "qDef": "-sum({$<#Бюджетная_Форма ={214}, #Факт = {3} >} [_Факт_Сумма]*[Валюта_Курс_Пересчета])\r\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Выручка Прогноз, ' & Only([Валюта_Перевода])",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Выручка Прогноз (в валюте)",
+    "description": "",
+    "tags": []
+  }
+}

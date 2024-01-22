@@ -1,0 +1,60 @@
+{
+  "qInfo": {
+    "qId": "GjWQWcL",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выполнение бюджета по выручке",
+    "qDef": "[Выручка Факт (валюта перевода)]/[Выручка Бюджет (в валюте)]\r\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0,0%",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {
+      "gradient": {
+        "colors": [
+          {
+            "color": "#db353f",
+            "index": -1
+          },
+          {
+            "color": "#ff8b6c",
+            "index": -1
+          },
+          {
+            "color": "#61a9f1",
+            "index": -1
+          },
+          {
+            "color": "#02098e",
+            "index": -1
+          }
+        ],
+        "breakTypes": [
+          false,
+          false,
+          false
+        ],
+        "limits": [
+          0.4,
+          0.8,
+          0.9
+        ],
+        "limitType": "absolute"
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Выполнение бюджета по выручке",
+    "description": "",
+    "tags": []
+  }
+}

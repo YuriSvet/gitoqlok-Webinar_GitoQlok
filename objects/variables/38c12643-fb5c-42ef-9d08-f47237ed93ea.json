@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "38c12643-fb5c-42ef-9d08-f47237ed93ea",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "sMaxDate",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "43435",
+  "qIsScriptCreated": true
+}

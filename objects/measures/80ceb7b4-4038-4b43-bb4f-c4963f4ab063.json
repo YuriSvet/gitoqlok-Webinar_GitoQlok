@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "80ceb7b4-4038-4b43-bb4f-c4963f4ab063",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Чистая прибыль Бюджет, л/в",
+    "qDef": "[Выручка Бюджет, л/в]-[Скидки Бюджет, л/в]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Чистая прибыль Бюджет, л/в",
+    "description": "",
+    "tags": []
+  }
+}

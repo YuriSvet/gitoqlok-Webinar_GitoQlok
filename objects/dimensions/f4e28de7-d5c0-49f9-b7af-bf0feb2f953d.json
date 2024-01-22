@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "f4e28de7-d5c0-49f9-b7af-bf0feb2f953d",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Исторический МВП"
+    ],
+    "qFieldLabels": [
+      "МВП Исторический"
+    ],
+    "title": "МВП Исторический",
+    "coloring": {
+      "colorMapRef": "f4e28de7-d5c0-49f9-b7af-bf0feb2f953d",
+      "changeHash": "0.30107814679808653",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "МВП Исторический",
+    "description": "",
+    "tags": []
+  }
+}

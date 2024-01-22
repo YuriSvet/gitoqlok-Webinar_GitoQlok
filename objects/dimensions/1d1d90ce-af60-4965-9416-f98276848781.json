@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "1d1d90ce-af60-4965-9416-f98276848781",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Дистрибьютор"
+    ],
+    "qFieldLabels": [
+      "Дистрибьютор/Контрагент"
+    ],
+    "title": "Дистрибьютор/Контрагент",
+    "coloring": {
+      "colorMapRef": "1d1d90ce-af60-4965-9416-f98276848781",
+      "changeHash": "0.704015138035665",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Дистрибьютор/Контрагент",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,628 @@
+[
+  {
+    "qName": "#Бюджетная_Форма",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "#Бюджетный_Период",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "#Бюджетный_Период_TEXT",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "#КИКонс",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "КонструкторИзмеренийКонс_Сложный"
+    ]
+  },
+  {
+    "qName": "#КИПростой",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "КонструкторИзмеренийПростой"
+    ]
+  },
+  {
+    "qName": "#КИСводный",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "КонструкторИзмеренийСводный"
+    ]
+  },
+  {
+    "qName": "#КПКонс",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейКонс_Сложный"
+    ]
+  },
+  {
+    "qName": "#КППростой",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейПростой"
+    ]
+  },
+  {
+    "qName": "#КПСводный",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейСводный"
+    ]
+  },
+  {
+    "qName": "#Статья_Бюджета",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "#Факт",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "%Номенклатура",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов",
+      "Справочник_Номенклатуры"
+    ]
+  },
+  {
+    "qName": "%Период",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date",
+      "$key"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов",
+      "Периоды"
+    ]
+  },
+  {
+    "qName": "%ПериодВалюта",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов",
+      "Справочник_Перевода_Валюты"
+    ]
+  },
+  {
+    "qName": "_Факт_Количество",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "_Факт_Сумма",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Бизнес – Юнит",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Валюта_Курс_Пересчета",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Справочник_Перевода_Валюты"
+    ]
+  },
+  {
+    "qName": "Валюта_Перевода",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Справочник_Перевода_Валюты"
+    ],
+    "qAlwaysOneSelected": true
+  },
+  {
+    "qName": "Год",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Периоды"
+    ]
+  },
+  {
+    "qName": "Год - Месяц",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Периоды"
+    ]
+  },
+  {
+    "qName": "Дистрибьютор",
+    "qTags": [],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Исторический МВП",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qIsHidden": true,
+    "qName": "КИКонс",
+    "qTags": [
+      "$text",
+      "$hidden"
+    ],
+    "qSrcTables": [
+      "КонструкторИзмеренийКонс_Сложный"
+    ],
+    "qAlwaysOneSelected": true
+  },
+  {
+    "qName": "КИКонс_Поле",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "КонструкторИзмеренийКонс_Сложный"
+    ]
+  },
+  {
+    "qIsHidden": true,
+    "qName": "КИПростой",
+    "qTags": [
+      "$text",
+      "$hidden"
+    ],
+    "qSrcTables": [
+      "КонструкторИзмеренийПростой"
+    ],
+    "qAlwaysOneSelected": true
+  },
+  {
+    "qIsHidden": true,
+    "qName": "КИСводный",
+    "qTags": [
+      "$text",
+      "$hidden"
+    ],
+    "qSrcTables": [
+      "КонструкторИзмеренийСводный"
+    ]
+  },
+  {
+    "qIsHidden": true,
+    "qName": "КПКонс",
+    "qTags": [
+      "$text",
+      "$hidden"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейКонс_Сложный"
+    ],
+    "qAlwaysOneSelected": true
+  },
+  {
+    "qName": "КПКонс_Поле",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейКонс_Сложный"
+    ]
+  },
+  {
+    "qName": "КПКонс_ПолеВыпонениеПлана",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейКонс_Сложный"
+    ]
+  },
+  {
+    "qName": "КПКонс_ПолеВыпонениеПрогноза",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейКонс_Сложный"
+    ]
+  },
+  {
+    "qName": "КПКонс_ПолеПлан",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейКонс_Сложный"
+    ]
+  },
+  {
+    "qName": "КПКонс_ПолеПрогноз",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейКонс_Сложный"
+    ]
+  },
+  {
+    "qIsHidden": true,
+    "qName": "КППростой",
+    "qTags": [
+      "$text",
+      "$hidden"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейПростой"
+    ],
+    "qAlwaysOneSelected": true
+  },
+  {
+    "qIsHidden": true,
+    "qName": "КПСводный",
+    "qTags": [
+      "$text",
+      "$hidden"
+    ],
+    "qSrcTables": [
+      "КонструкторПоказателейСводный"
+    ]
+  },
+  {
+    "qName": "Квартал",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Периоды"
+    ]
+  },
+  {
+    "qName": "Локальная валюта",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Месяц",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Периоды"
+    ]
+  },
+  {
+    "qName": "Номенклатура_Длинное_Название_Материала",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Справочник_Номенклатуры"
+    ]
+  },
+  {
+    "qName": "Номенклатура_Текущий_МВП",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Справочник_Номенклатуры"
+    ]
+  },
+  {
+    "qName": "План_Балансовая_Единица_TEXT",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "План_Бизнес_Юнит",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "План_Бюджетная_Форма_TEXT",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "План_Код_Страны",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "План_Рынок_Сбыта",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "План_Статья_Бюджета_TEXT",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Прогноз_Балансовая_Единица_TEXT",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Прогноз_Бизнес_Юнит",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Прогноз_Бюджетная_Форма_TEXT",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Прогноз_Код_Страны",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Прогноз_Рынок_Сбыта",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Прогноз_Статья_Бюджета_TEXT",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Рынок",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Страна",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Тип консолидации",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Тип продаж",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Тип_Продаж",
+    "qTags": [],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Факт_Балансовая_Единица_TEXT",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Факт_Бизнес_Юнит",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Факт_Бюджетная_Форма_TEXT",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Факт_Код_Страны",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Факт_Номер_Клиента_TEXT",
+    "qTags": [],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Факт_Рынок_Сбыта",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  },
+  {
+    "qName": "Факт_Статья_Бюджета_TEXT",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ТаблицаФактов"
+    ]
+  }
+]

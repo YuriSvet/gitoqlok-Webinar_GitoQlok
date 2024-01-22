@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "d4b80c73-8dc9-42e9-9160-a8b8874addc5",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "sPeriodName",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "122018",
+  "qIsScriptCreated": true
+}

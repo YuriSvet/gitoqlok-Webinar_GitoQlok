@@ -1,0 +1,60 @@
+{
+  "qInfo": {
+    "qId": "d3b1dcbf-d6b7-4db6-bcdc-f7c88d226257",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выполнение бюджета по чистой прибыли",
+    "qDef": "[Чистая прибыль Факт (в валюте)]/[Чистая прибыль Бюджет (в валюте)]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0,0%",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {
+      "gradient": {
+        "colors": [
+          {
+            "color": "#db353f",
+            "index": -1
+          },
+          {
+            "color": "#ff8b6c",
+            "index": -1
+          },
+          {
+            "color": "#61a9f1",
+            "index": -1
+          },
+          {
+            "color": "#02098e",
+            "index": -1
+          }
+        ],
+        "breakTypes": [
+          false,
+          false,
+          false
+        ],
+        "limits": [
+          0.4,
+          0.8,
+          0.9
+        ],
+        "limitType": "absolute"
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Выполнение бюджета по чистой прибыли",
+    "description": "",
+    "tags": []
+  }
+}

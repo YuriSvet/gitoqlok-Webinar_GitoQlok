@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "7c7bb167-9ffa-42f6-ae6e-f630bcbded68",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Месяц"
+    ],
+    "qFieldLabels": [
+      "Месяц"
+    ],
+    "title": "Месяц",
+    "coloring": {
+      "colorMapRef": "7c7bb167-9ffa-42f6-ae6e-f630bcbded68",
+      "changeHash": "0.5154228996730719",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Месяц",
+    "description": "",
+    "tags": []
+  }
+}

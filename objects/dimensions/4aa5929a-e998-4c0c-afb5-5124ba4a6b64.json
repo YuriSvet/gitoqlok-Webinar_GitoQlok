@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "4aa5929a-e998-4c0c-afb5-5124ba4a6b64",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Локальная валюта"
+    ],
+    "qFieldLabels": [
+      "Локальная валюта"
+    ],
+    "title": "Локальная валюта",
+    "coloring": {
+      "colorMapRef": "4aa5929a-e998-4c0c-afb5-5124ba4a6b64",
+      "changeHash": "0.4538209703267899",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Локальная валюта",
+    "description": "",
+    "tags": []
+  }
+}

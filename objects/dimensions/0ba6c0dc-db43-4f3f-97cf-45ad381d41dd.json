@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "0ba6c0dc-db43-4f3f-97cf-45ad381d41dd",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "%Номенклатура"
+    ],
+    "qFieldLabels": [
+      "Код SAP"
+    ],
+    "title": "Код SAP",
+    "coloring": {
+      "colorMapRef": "0ba6c0dc-db43-4f3f-97cf-45ad381d41dd",
+      "changeHash": "0.5845607633833478",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Код SAP",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "AKFpZA",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выручка Бюджет, л/в",
+    "qDef": "-sum({$<#Бюджетная_Форма ={214}, #Факт = {2} >} [_Факт_Сумма])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Выручка Бюджет, л/в",
+    "description": "",
+    "tags": []
+  }
+}

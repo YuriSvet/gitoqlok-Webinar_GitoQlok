@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "yTjHrj",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Скидки Факт, л/в",
+    "qDef": "sum({$<#Бюджетная_Форма ={808}, #Статья_Бюджета={'1000/464'}, #Факт = {1} >} [_Факт_Сумма])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0.00",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Скидки Факт, л/в",
+    "description": "",
+    "tags": []
+  }
+}

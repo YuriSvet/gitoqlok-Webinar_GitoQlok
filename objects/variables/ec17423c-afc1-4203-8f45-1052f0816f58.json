@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "ec17423c-afc1-4203-8f45-1052f0816f58",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vLimitRow",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "15",
+  "tags": []
+}

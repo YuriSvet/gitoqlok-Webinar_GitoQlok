@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "00d2b0fb-88a5-4059-b860-589675484b70",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Скидки Бюджет (в валюте)",
+    "qDef": "sum({$<#Бюджетная_Форма ={808}, #Статья_Бюджета={'1000/464'} , #Бюджетный_Период = {201801003}, #Факт = {2} >} [_Факт_Сумма]*[Валюта_Курс_Пересчета])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Скидки Бюджет, ' & Only([Валюта_Перевода])",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": false
+  },
+  "qMetaDef": {
+    "title": "Скидки Бюджет (в валюте)",
+    "description": "",
+    "tags": []
+  }
+}

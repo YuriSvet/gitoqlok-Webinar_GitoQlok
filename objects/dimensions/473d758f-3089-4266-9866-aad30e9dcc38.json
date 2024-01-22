@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "473d758f-3089-4266-9866-aad30e9dcc38",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Рынок"
+    ],
+    "qFieldLabels": [
+      "Рынок"
+    ],
+    "title": "Рынок",
+    "coloring": {
+      "colorMapRef": "473d758f-3089-4266-9866-aad30e9dcc38",
+      "changeHash": "0.9960756039949559",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Рынок",
+    "description": "",
+    "tags": []
+  }
+}

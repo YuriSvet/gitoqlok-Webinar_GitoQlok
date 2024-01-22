@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "e048604a-f415-4f57-a29c-16d6b7eed0cc",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Тип консолидации"
+    ],
+    "qFieldLabels": [
+      "Тип консолидации"
+    ],
+    "title": "Тип консолидации",
+    "coloring": {
+      "colorMapRef": "e048604a-f415-4f57-a29c-16d6b7eed0cc",
+      "changeHash": "0.785048100098096",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Тип консолидации",
+    "description": "",
+    "tags": []
+  }
+}

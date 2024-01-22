@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "eddeb970-7540-4b7b-bfa0-d19d99531bd8",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выполнение прогноза по скидкам",
+    "qDef": "[Скидки Факт (в валюте)]/[Скидки Прогноз (в валюте)]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0,0%",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Выполнение прогноза по скидкам",
+    "description": "",
+    "tags": []
+  }
+}

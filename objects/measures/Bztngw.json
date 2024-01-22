@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "Bztngw",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Продажи факт,  в упк",
+    "qDef": "sum({$<#Бюджетная_Форма ={214}, #Факт = {1}>} [_Факт_Количество])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0.00",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Продажи факт,  в упк",
+    "description": "",
+    "tags": []
+  }
+}

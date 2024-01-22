@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "934a95ec-1353-4b33-8eb8-0471ea2916c5",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Номенклатура_Уникальное_Название_Продукта"
+    ],
+    "qFieldLabels": [
+      "Уникальное название продукта"
+    ],
+    "title": "Уникальное название продукта",
+    "coloring": {
+      "colorMapRef": "qLVBdc",
+      "changeHash": "0.36747817224106627",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Уникальное название продукта",
+    "description": "",
+    "tags": []
+  }
+}

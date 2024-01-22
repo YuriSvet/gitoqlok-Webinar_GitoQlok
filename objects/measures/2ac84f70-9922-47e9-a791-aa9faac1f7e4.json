@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "2ac84f70-9922-47e9-a791-aa9faac1f7e4",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выполнение прогноза по чистой прибыли",
+    "qDef": "[Чистая прибыль Факт (в валюте)]/[Чистая прибыль Прогноз (в валюте)]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0,0%",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Выполнение прогноза по чистой прибыли",
+    "description": "",
+    "tags": []
+  }
+}

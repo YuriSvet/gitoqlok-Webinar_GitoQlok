@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "pKwjnmw",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Год"
+    ],
+    "qFieldLabels": [
+      "Год"
+    ],
+    "title": "Год",
+    "coloring": {
+      "changeHash": "0.22718109591581803",
+      "hasValueColors": false,
+      "colorMapRef": "pKwjnmw"
+    }
+  },
+  "qMetaDef": {
+    "title": "Год",
+    "description": "",
+    "tags": []
+  }
+}

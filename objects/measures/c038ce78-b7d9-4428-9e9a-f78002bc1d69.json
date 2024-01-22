@@ -1,0 +1,60 @@
+{
+  "qInfo": {
+    "qId": "c038ce78-b7d9-4428-9e9a-f78002bc1d69",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выполнение бюджета по скидкам",
+    "qDef": "[Скидки Факт (в валюте)]/[Скидки Бюджет (в валюте)]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0,0%",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {
+      "gradient": {
+        "colors": [
+          {
+            "color": "#db353f",
+            "index": -1
+          },
+          {
+            "color": "#ff8b6c",
+            "index": -1
+          },
+          {
+            "color": "#61a9f1",
+            "index": -1
+          },
+          {
+            "color": "#02098e",
+            "index": -1
+          }
+        ],
+        "breakTypes": [
+          false,
+          false,
+          false
+        ],
+        "limits": [
+          0.4,
+          0.8,
+          0.9
+        ],
+        "limitType": "absolute"
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Выполнение бюджета по скидкам",
+    "description": "",
+    "tags": []
+  }
+}

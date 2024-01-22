@@ -1,0 +1,27 @@
+///$tab Периоды
+Temp_Calendar_Range:
+LOAD
+    MIN(%Период)                      AS MinDate,
+    MAX(%Период)                      AS MaxDate
+RESIDENT [ТаблицаФактов]
+;
+
+LET sMinDate = PEEK('MinDate', 0, 'Temp_Calendar_Range');
+LET sMaxDate = PEEK('MaxDate', 0, 'Temp_Calendar_Range');
+
+DROP TABLE Temp_Calendar_Range; 
+
+Периоды:
+LOAD 
+    Temp_Date                         AS %Период,
+    YEAR(Temp_Date)                   AS Год,
+    MONTH(Temp_Date)                  AS Месяц,
+    MONTHNAME(Temp_Date)              AS [Год - Месяц],
+    'Q' & CEIL(MONTH(Temp_Date) / 3)  AS Квартал
+;
+
+LOAD 
+    $(sMinDate) + ITERNO() - 1        AS Temp_Date
+AUTOGENERATE(1)
+WHILE 
+    $(sMinDate) + ITERNO() - 1 <= $(sMaxDate);

@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "XbnbbP",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Год - Месяц"
+    ],
+    "qFieldLabels": [
+      "Год - Месяц"
+    ],
+    "title": "Год - Месяц",
+    "coloring": {
+      "changeHash": "0.424690400075153",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Год - Месяц",
+    "description": "",
+    "tags": []
+  }
+}

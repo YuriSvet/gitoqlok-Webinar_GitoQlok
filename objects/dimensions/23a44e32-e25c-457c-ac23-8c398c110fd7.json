@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "23a44e32-e25c-457c-ac23-8c398c110fd7",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Страна"
+    ],
+    "qFieldLabels": [
+      "Страна"
+    ],
+    "title": "Страна",
+    "coloring": {
+      "colorMapRef": "23a44e32-e25c-457c-ac23-8c398c110fd7",
+      "changeHash": "0.9525838197176586",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Страна",
+    "description": "",
+    "tags": []
+  }
+}

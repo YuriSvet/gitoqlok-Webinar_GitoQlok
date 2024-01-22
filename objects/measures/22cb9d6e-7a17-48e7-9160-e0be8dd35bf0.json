@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "22cb9d6e-7a17-48e7-9160-e0be8dd35bf0",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Скидки Факт (в валюте)",
+    "qDef": "sum({$<#Бюджетная_Форма ={808}, #Статья_Бюджета={'1000/464'}, #Факт = {1}  >} [_Факт_Сумма]*[Валюта_Курс_Пересчета])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Скидки Факт, ' & Only([Валюта_Перевода])",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Скидки Факт (в валюте)",
+    "description": "",
+    "tags": []
+  }
+}

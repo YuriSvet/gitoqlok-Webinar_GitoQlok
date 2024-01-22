@@ -1,0 +1,27 @@
+{
+  "qInfo": {
+    "qId": "hmXtxC",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Продажи бюджет, в упк",
+    "qDef": "sum({$<#Бюджетная_Форма ={214}, #Бюджетный_Период = {201801003}, #Факт = {2} >} [_Факт_Количество])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Продажи бюджет, в упк",
+    "description": "",
+    "tags": []
+  }
+}

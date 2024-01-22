@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "fac2a70e-7ff5-49f6-ae52-4247ccb6ffbd",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выполнение прогноза по выручке",
+    "qDef": "[Выручка Факт (валюта перевода)]/[Выручка Прогноз (в валюте)]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0,0%",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Выполнение прогноза по выручке",
+    "description": "",
+    "tags": []
+  }
+}

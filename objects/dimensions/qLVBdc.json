@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "qLVBdc",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "%Период"
+    ],
+    "qFieldLabels": [
+      "Период"
+    ],
+    "title": "Период",
+    "coloring": {
+      "changeHash": "0.7101070894883001",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Период",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "9242a44a-b709-47fe-b20d-606ddb04fd9a",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Тип продаж"
+    ],
+    "qFieldLabels": [
+      "Тип продаж"
+    ],
+    "title": "Тип продаж",
+    "coloring": {
+      "colorMapRef": "9242a44a-b709-47fe-b20d-606ddb04fd9a",
+      "changeHash": "0.4613538148099976",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Тип продаж",
+    "description": "",
+    "tags": []
+  }
+}

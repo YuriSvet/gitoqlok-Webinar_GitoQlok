@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "jVjabj",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выручка Факт (валюта перевода)",
+    "qDef": "-sum({$<#Бюджетная_Форма ={214}, #Факт={1}>} [_Факт_Сумма]*[Валюта_Курс_Пересчета])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Выручка Факт, ' & Only([Валюта_Перевода])",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Выручка Факт (валюта перевода)",
+    "description": "",
+    "tags": []
+  }
+}

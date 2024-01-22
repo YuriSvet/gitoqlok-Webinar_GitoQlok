@@ -1,0 +1,88 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "52fde5d5-4a23-4155-a090-75169154828c",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": "",
+      "sheetTitleGradientColor": "",
+      "sheetTitleColor": "",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {}
+      },
+      "sheetLogoPosition": "",
+      "rtl": false,
+      "theme": "sense",
+      "disableCellNavMenu": false,
+      "chartAnimations": true,
+      "enableHcModifiers": false,
+      "presets": [
+        {
+          "id": "default"
+        },
+        {
+          "name": "Presets.Untitled",
+          "id": "yyJmKDX",
+          "navigationBar": {
+            "components": {
+              "logo": {
+                "show": true,
+                "placement": "left"
+              },
+              "tabsManagerAdvanced": {
+                "show": true,
+                "placement": "left"
+              },
+              "appTitle": {
+                "show": true,
+                "placement": "center"
+              },
+              "insightAdvisor": {
+                "show": true,
+                "placement": "right"
+              },
+              "notificationMenu": {
+                "show": true,
+                "placement": "right"
+              },
+              "appSwitcher": {
+                "show": true,
+                "placement": "right"
+              },
+              "profile": {
+                "show": true,
+                "placement": "right"
+              }
+            }
+          },
+          "toolbar": {
+            "show": true,
+            "components": {
+              "assets": {
+                "show": true,
+                "placement": "left"
+              },
+              "selections": {
+                "show": true,
+                "placement": "left"
+              }
+            }
+          },
+          "sheetHeader": {
+            "show": true,
+            "components": {
+              "sheetTitle": {
+                "show": true,
+                "placement": "left"
+              }
+            }
+          }
+        }
+      ],
+      "activePreset": "yyJmKDX"
+    },
+    "qChildren": []
+  }
+]

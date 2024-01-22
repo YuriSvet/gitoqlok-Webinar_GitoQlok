@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "a5b63df3-cbc5-4be4-8909-eb61b28db9a2",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Номенклатура_Проект"
+    ],
+    "qFieldLabels": [
+      "Проект"
+    ],
+    "title": "Проект",
+    "coloring": {
+      "colorMapRef": "qLVBdc",
+      "changeHash": "0.8520631124509497",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Проект",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "b2c9f1d9-61fd-4a26-9758-fbdf49c6c994",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Скидки Прогноз (в валюте)",
+    "qDef": "sum({$<#Бюджетная_Форма ={808}, #Статья_Бюджета={'1000/464'} ,#Бюджетный_Период = {201803001}, #Факт = {3} >} [_Факт_Сумма]*[Валюта_Курс_Пересчета])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Скидки Прогноз, ' & Only([Валюта_Перевода])",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Скидки Прогноз (в валюте)",
+    "description": "",
+    "tags": []
+  }
+}

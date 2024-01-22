@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "5b7f2529-11c0-4315-9b51-fb24fcab0973",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Чистая прибыль Прогноз,  л/в",
+    "qDef": "[Выручка Прогноз, л/в]-[Скидки Прогноз, л/в]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Чистая прибыль Прогноз,  л/в",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "gDZnJJ",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Скидки Бюджет, л/в",
+    "qDef": "sum({$<#Бюджетная_Форма ={808}, #Статья_Бюджета={'1000/464'} , #Бюджетный_Период = {201801003}, #Факт = {2} >} [_Факт_Сумма])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0.00",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Скидки Бюджет, л/в",
+    "description": "",
+    "tags": []
+  }
+}

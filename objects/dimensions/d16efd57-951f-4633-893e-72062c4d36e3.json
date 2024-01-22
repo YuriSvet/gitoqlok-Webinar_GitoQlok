@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "d16efd57-951f-4633-893e-72062c4d36e3",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Номенклатура_Длинное_Название_Материала"
+    ],
+    "qFieldLabels": [
+      "Материал"
+    ],
+    "title": "Материал",
+    "coloring": {
+      "colorMapRef": "d16efd57-951f-4633-893e-72062c4d36e3",
+      "changeHash": "0.6046248045878966",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Материал",
+    "description": "",
+    "tags": []
+  }
+}

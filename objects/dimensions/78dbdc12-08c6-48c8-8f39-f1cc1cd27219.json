@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "78dbdc12-08c6-48c8-8f39-f1cc1cd27219",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Номенклатура_Текущий_МВП"
+    ],
+    "qFieldLabels": [
+      "МВП Текущий"
+    ],
+    "title": "МВП Текущий",
+    "coloring": {
+      "colorMapRef": "78dbdc12-08c6-48c8-8f39-f1cc1cd27219",
+      "changeHash": "0.0033514571847679253",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "МВП Текущий",
+    "description": "",
+    "tags": []
+  }
+}

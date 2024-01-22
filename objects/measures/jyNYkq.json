@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "jyNYkq",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Чистая прибыль Факт, л/в",
+    "qDef": "[Выручка Факт, л/в]-[Скидки Факт, л/в]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Чистая прибыль Факт, л/в",
+    "description": "",
+    "tags": []
+  }
+}

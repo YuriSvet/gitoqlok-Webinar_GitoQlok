@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "3dda653a-008d-4d73-b75a-85a116a690b9",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "sMinDate",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "43374",
+  "qIsScriptCreated": true
+}

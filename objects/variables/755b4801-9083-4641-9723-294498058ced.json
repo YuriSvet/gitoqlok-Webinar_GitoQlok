@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "755b4801-9083-4641-9723-294498058ced",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "sPath",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "lib://yuri.s_PersonalFolder",
+  "qIsScriptCreated": true
+}

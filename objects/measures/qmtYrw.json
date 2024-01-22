@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "qmtYrw",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выручка Факт, л/в",
+    "qDef": "-sum({$<[#Бюджетная_Форма] ={214}, #Факт = {1}>} [_Факт_Сумма])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true
+  },
+  "qMetaDef": {
+    "title": "Выручка Факт, л/в",
+    "description": "",
+    "tags": []
+  }
+}

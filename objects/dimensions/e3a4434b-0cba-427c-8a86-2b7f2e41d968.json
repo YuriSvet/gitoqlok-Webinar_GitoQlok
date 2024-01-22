@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "e3a4434b-0cba-427c-8a86-2b7f2e41d968",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Квартал"
+    ],
+    "qFieldLabels": [
+      "Квартал"
+    ],
+    "title": "Квартал",
+    "coloring": {
+      "colorMapRef": "e3a4434b-0cba-427c-8a86-2b7f2e41d968",
+      "changeHash": "0.6252202891568299",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Квартал",
+    "description": "",
+    "tags": []
+  }
+}

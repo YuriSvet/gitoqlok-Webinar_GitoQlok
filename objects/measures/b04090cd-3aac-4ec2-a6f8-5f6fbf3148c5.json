@@ -1,0 +1,28 @@
+{
+  "qInfo": {
+    "qId": "b04090cd-3aac-4ec2-a6f8-5f6fbf3148c5",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Чистая прибыль Факт (в валюте)",
+    "qDef": "(-sum({$<#Бюджетная_Форма ={214}, #Факт = {1}>} [_Факт_Сумма]*[Валюта_Курс_Пересчета]))-(sum({$<#Бюджетная_Форма ={808}, #Статья_Бюджета={'1000/464'}, #Факт = {1}  >} [_Факт_Сумма]*[Валюта_Курс_Пересчета]))",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Чистая прибыль Факт, ' & Only([Валюта_Перевода])",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Чистая прибыль Факт (в валюте)",
+    "description": "",
+    "tags": []
+  }
+}

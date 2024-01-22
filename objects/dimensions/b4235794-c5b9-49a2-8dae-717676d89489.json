@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "b4235794-c5b9-49a2-8dae-717676d89489",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Бизнес – Юнит"
+    ],
+    "qFieldLabels": [
+      "Бизнес-Юнит"
+    ],
+    "title": "Бизнес-Юнит",
+    "coloring": {
+      "colorMapRef": "b4235794-c5b9-49a2-8dae-717676d89489",
+      "changeHash": "0.9724520709854816",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Бизнес-Юнит",
+    "description": "",
+    "tags": []
+  }
+}

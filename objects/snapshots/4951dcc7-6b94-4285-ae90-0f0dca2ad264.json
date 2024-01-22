@@ -1,0 +1,4080 @@
+{
+  "qInfo": {
+    "qId": "4951dcc7-6b94-4285-ae90-0f0dca2ad264",
+    "qType": "snapshot"
+  },
+  "qMetaDef": {
+    "title": "",
+    "description": "",
+    "annotation": ""
+  },
+  "creationDate": "2023-12-04T13:33:56.290Z",
+  "qMeta": {
+    "privileges": [
+      "read",
+      "update",
+      "delete",
+      "exportdata"
+    ]
+  },
+  "qSelectionInfo": {},
+  "qStateName": "Gross",
+  "qHyperCube": {
+    "qStateName": "Gross",
+    "qSize": {
+      "qcx": 6,
+      "qcy": 173
+    },
+    "qDimensionInfo": [
+      {
+        "qFallbackTitle": "Название МВП",
+        "qApprMaxGlyphCount": 30,
+        "qCardinal": 312,
+        "qSortIndicator": "A",
+        "qGroupFallbackTitles": [
+          "Название МВП"
+        ],
+        "qGroupPos": 0,
+        "qStateCounts": {
+          "qLocked": 0,
+          "qSelected": 0,
+          "qOption": 312,
+          "qDeselected": 0,
+          "qAlternative": 0,
+          "qExcluded": 0,
+          "qSelectedExcluded": 0,
+          "qLockedExcluded": 0
+        },
+        "qTags": [
+          "$text"
+        ],
+        "qDimensionType": "D",
+        "qGrouping": "N",
+        "qNumFormat": {
+          "qType": "A",
+          "qnDec": 0,
+          "qUseThou": 0
+        },
+        "qIsAutoFormat": true,
+        "qGroupFieldDefs": [
+          "=[Исторический МВП]"
+        ],
+        "qMin": "NaN",
+        "qMax": "NaN",
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qCardinalities": {
+          "qCardinal": 312,
+          "qHypercubeCardinal": 173,
+          "qAllValuesCardinal": -1
+        },
+        "autoSort": true,
+        "cId": "hPJpPT",
+        "othersLabel": "Другие",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "urlPosition": "dimension",
+          "urlLabel": "",
+          "linkUrl": "",
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qGroupFallbackTitles": [],
+        "qGroupPos": 0,
+        "qStateCounts": {
+          "qLocked": 0,
+          "qSelected": 0,
+          "qOption": 0,
+          "qDeselected": 0,
+          "qAlternative": 0,
+          "qExcluded": 0,
+          "qSelectedExcluded": 0,
+          "qLockedExcluded": 0
+        },
+        "qTags": [],
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qDimensionType": "D",
+        "qGrouping": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qGroupFieldDefs": [],
+        "qMin": 0,
+        "qMax": 0,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qCardinalities": {
+          "qCardinal": 0,
+          "qHypercubeCardinal": 0,
+          "qAllValuesCardinal": -1
+        },
+        "title": "Бизнес-Юнит",
+        "coloring": {
+          "colorMapRef": "b4235794-c5b9-49a2-8dae-717676d89489",
+          "changeHash": "0.9724520709854816",
+          "hasValueColors": false
+        },
+        "autoSort": true,
+        "cId": "CvrNjt",
+        "othersLabel": "Другие",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "urlPosition": "dimension",
+          "urlLabel": "",
+          "linkUrl": "",
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qGroupFallbackTitles": [],
+        "qGroupPos": 0,
+        "qStateCounts": {
+          "qLocked": 0,
+          "qSelected": 0,
+          "qOption": 0,
+          "qDeselected": 0,
+          "qAlternative": 0,
+          "qExcluded": 0,
+          "qSelectedExcluded": 0,
+          "qLockedExcluded": 0
+        },
+        "qTags": [],
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qDimensionType": "D",
+        "qGrouping": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qGroupFieldDefs": [],
+        "qMin": 0,
+        "qMax": 0,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qCardinalities": {
+          "qCardinal": 0,
+          "qHypercubeCardinal": 0,
+          "qAllValuesCardinal": -1
+        },
+        "title": "Рынок",
+        "coloring": {
+          "colorMapRef": "473d758f-3089-4266-9866-aad30e9dcc38",
+          "changeHash": "0.9960756039949559",
+          "hasValueColors": false
+        },
+        "autoSort": true,
+        "cId": "BPwCxq",
+        "othersLabel": "Другие",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "urlPosition": "dimension",
+          "urlLabel": "",
+          "linkUrl": "",
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qGroupFallbackTitles": [],
+        "qGroupPos": 0,
+        "qStateCounts": {
+          "qLocked": 0,
+          "qSelected": 0,
+          "qOption": 0,
+          "qDeselected": 0,
+          "qAlternative": 0,
+          "qExcluded": 0,
+          "qSelectedExcluded": 0,
+          "qLockedExcluded": 0
+        },
+        "qTags": [],
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qDimensionType": "D",
+        "qGrouping": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qGroupFieldDefs": [],
+        "qMin": 0,
+        "qMax": 0,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qCardinalities": {
+          "qCardinal": 0,
+          "qHypercubeCardinal": 0,
+          "qAllValuesCardinal": -1
+        },
+        "title": "Страна",
+        "coloring": {
+          "colorMapRef": "23a44e32-e25c-457c-ac23-8c398c110fd7",
+          "changeHash": "0.9525838197176586",
+          "hasValueColors": false
+        },
+        "autoSort": true,
+        "cId": "HdnYEfV",
+        "othersLabel": "Другие",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "urlPosition": "dimension",
+          "urlLabel": "",
+          "linkUrl": "",
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qGroupFallbackTitles": [],
+        "qGroupPos": 0,
+        "qStateCounts": {
+          "qLocked": 0,
+          "qSelected": 0,
+          "qOption": 0,
+          "qDeselected": 0,
+          "qAlternative": 0,
+          "qExcluded": 0,
+          "qSelectedExcluded": 0,
+          "qLockedExcluded": 0
+        },
+        "qTags": [],
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qDimensionType": "D",
+        "qGrouping": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qGroupFieldDefs": [],
+        "qMin": 0,
+        "qMax": 0,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qCardinalities": {
+          "qCardinal": 0,
+          "qHypercubeCardinal": 0,
+          "qAllValuesCardinal": -1
+        },
+        "title": "Код SAP",
+        "coloring": {
+          "colorMapRef": "0ba6c0dc-db43-4f3f-97cf-45ad381d41dd",
+          "changeHash": "0.5845607633833478",
+          "hasValueColors": false
+        },
+        "autoSort": true,
+        "cId": "MBYpUPP",
+        "othersLabel": "Другие",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "urlPosition": "dimension",
+          "urlLabel": "",
+          "linkUrl": "",
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qGroupFallbackTitles": [],
+        "qGroupPos": 0,
+        "qStateCounts": {
+          "qLocked": 0,
+          "qSelected": 0,
+          "qOption": 0,
+          "qDeselected": 0,
+          "qAlternative": 0,
+          "qExcluded": 0,
+          "qSelectedExcluded": 0,
+          "qLockedExcluded": 0
+        },
+        "qTags": [],
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qDimensionType": "D",
+        "qGrouping": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qGroupFieldDefs": [],
+        "qMin": 0,
+        "qMax": 0,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qCardinalities": {
+          "qCardinal": 0,
+          "qHypercubeCardinal": 0,
+          "qAllValuesCardinal": -1
+        },
+        "title": "Материал",
+        "coloring": {
+          "colorMapRef": "d16efd57-951f-4633-893e-72062c4d36e3",
+          "changeHash": "0.6046248045878966",
+          "hasValueColors": false
+        },
+        "autoSort": true,
+        "cId": "QEgfPb",
+        "othersLabel": "Другие",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "urlPosition": "dimension",
+          "urlLabel": "",
+          "linkUrl": "",
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qGroupFallbackTitles": [],
+        "qGroupPos": 0,
+        "qStateCounts": {
+          "qLocked": 0,
+          "qSelected": 0,
+          "qOption": 0,
+          "qDeselected": 0,
+          "qAlternative": 0,
+          "qExcluded": 0,
+          "qSelectedExcluded": 0,
+          "qLockedExcluded": 0
+        },
+        "qTags": [],
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qDimensionType": "D",
+        "qGrouping": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qGroupFieldDefs": [],
+        "qMin": 0,
+        "qMax": 0,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qCardinalities": {
+          "qCardinal": 0,
+          "qHypercubeCardinal": 0,
+          "qAllValuesCardinal": -1
+        },
+        "title": "Проект",
+        "coloring": {
+          "colorMapRef": "qLVBdc",
+          "changeHash": "0.8520631124509497",
+          "hasValueColors": false
+        },
+        "autoSort": true,
+        "cId": "THRFXc",
+        "othersLabel": "Другие",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "urlPosition": "dimension",
+          "urlLabel": "",
+          "linkUrl": "",
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        }
+      }
+    ],
+    "qMeasureInfo": [
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "numFormatFromTemplate": true,
+        "autoSort": true,
+        "cId": "FddXPD",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "msEhLk",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "mVxqLWs",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "ecstJAp",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "bJKmx",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "aUMPbp",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "mSwt",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "frAb",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "numFormatFromTemplate": true,
+        "autoSort": true,
+        "cId": "aNUKA",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "gahCe",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "fXTZsr",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "jLwPHE",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "Lmqj",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "pyJWRC",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "nsUUZz",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qFallbackTitle": "Скидки Факт, EUR",
+        "qApprMaxGlyphCount": 15,
+        "qCardinal": 0,
+        "qSortIndicator": "D",
+        "qNumFormat": {
+          "qType": "F",
+          "qnDec": 2,
+          "qUseThou": 0,
+          "qFmt": "#  ##0,00",
+          "qDec": ",",
+          "qThou": "  "
+        },
+        "qMin": -802825.2015863997,
+        "qMax": 3571219.6618663,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qLibraryId": "22cb9d6e-7a17-48e7-9160-e0be8dd35bf0",
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "WPmxMR",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qFallbackTitle": "Скидки Бюджет, EUR",
+        "qApprMaxGlyphCount": 14,
+        "qCardinal": 0,
+        "qSortIndicator": "D",
+        "qNumFormat": {
+          "qType": "F",
+          "qnDec": 2,
+          "qUseThou": 0,
+          "qFmt": "#  ##0,00",
+          "qDec": ",",
+          "qThou": "  "
+        },
+        "qMin": 0,
+        "qMax": 731350.9233813,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qLibraryId": "00d2b0fb-88a5-4059-b860-589675484b70",
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "numFormatFromTemplate": true,
+        "autoSort": true,
+        "cId": "xCanZV",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qFallbackTitle": "Скидки Прогноз, EUR",
+        "qApprMaxGlyphCount": 15,
+        "qCardinal": 0,
+        "qSortIndicator": "D",
+        "qNumFormat": {
+          "qType": "F",
+          "qnDec": 2,
+          "qUseThou": 0,
+          "qFmt": "#  ##0,00",
+          "qDec": ",",
+          "qThou": "  "
+        },
+        "qMin": 0,
+        "qMax": 1075369.2148852,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qLibraryId": "b2c9f1d9-61fd-4a26-9758-fbdf49c6c994",
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "UJFkgC",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "mgeaGg",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "bwLr",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "RPmsP",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "text",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": false,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [],
+            "paletteColors": [
+              {
+                "index": 6,
+                "icon": "dot"
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {
+          "gradient": {
+            "colors": [
+              {
+                "color": "#db353f",
+                "index": -1
+              },
+              {
+                "color": "#ff8b6c",
+                "index": -1
+              },
+              {
+                "color": "#61a9f1",
+                "index": -1
+              },
+              {
+                "color": "#02098e",
+                "index": -1
+              }
+            ],
+            "breakTypes": [
+              false,
+              false,
+              false
+            ],
+            "limits": [
+              0.4,
+              0.8,
+              0.9
+            ],
+            "limitType": "absolute"
+          }
+        },
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "pNeytry",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "indicator",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": true,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [
+              {
+                "value": 0.4,
+                "gradient": false
+              },
+              {
+                "value": 0.9,
+                "gradient": false
+              },
+              {
+                "value": 0.8,
+                "gradient": false
+              }
+            ],
+            "paletteColors": [
+              {
+                "color": "#db353f",
+                "icon": "",
+                "index": -1
+              },
+              {
+                "color": "#ff8b6c",
+                "index": -1
+              },
+              {
+                "color": "#61a9f1",
+                "index": -1
+              },
+              {
+                "color": "#02098e",
+                "index": -1
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "fuDmD",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "indicator",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": true,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [
+              {
+                "value": 0.4,
+                "gradient": false
+              },
+              {
+                "value": 0.8,
+                "gradient": false
+              },
+              {
+                "value": 0.9,
+                "gradient": false
+              }
+            ],
+            "paletteColors": [
+              {
+                "color": "#db353f",
+                "icon": "",
+                "index": -1
+              },
+              {
+                "color": "#ff8b6c",
+                "index": -1
+              },
+              {
+                "color": "#61a9f1",
+                "index": -1
+              },
+              {
+                "color": "#02098e",
+                "index": -1
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {
+          "gradient": {
+            "colors": [
+              {
+                "color": "#db353f",
+                "index": -1
+              },
+              {
+                "color": "#ff8b6c",
+                "index": -1
+              },
+              {
+                "color": "#61a9f1",
+                "index": -1
+              },
+              {
+                "color": "#02098e",
+                "index": -1
+              }
+            ],
+            "breakTypes": [
+              false,
+              false,
+              false
+            ],
+            "limits": [
+              0.4,
+              0.8,
+              0.9
+            ],
+            "limitType": "absolute"
+          }
+        },
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "mZjERJ",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "indicator",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": true,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [
+              {
+                "value": 0.4,
+                "gradient": false
+              },
+              {
+                "value": 0.8,
+                "gradient": false
+              },
+              {
+                "value": 0.9,
+                "gradient": false
+              }
+            ],
+            "paletteColors": [
+              {
+                "color": "#d6353f",
+                "icon": "",
+                "index": -1
+              },
+              {
+                "color": "#ff7d81",
+                "index": -1
+              },
+              {
+                "color": "#00c8fe",
+                "index": -1
+              },
+              {
+                "color": "#0006cf",
+                "index": -1
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "pNJhWy",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "indicator",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": true,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [
+              {
+                "value": 0.4,
+                "gradient": false
+              },
+              {
+                "value": 0.8,
+                "gradient": false
+              },
+              {
+                "value": 0.9,
+                "gradient": false
+              }
+            ],
+            "paletteColors": [
+              {
+                "color": "#d6353f",
+                "icon": "",
+                "index": -1
+              },
+              {
+                "color": "#ff7d81",
+                "index": -1
+              },
+              {
+                "color": "#00c8fe",
+                "index": -1
+              },
+              {
+                "color": "#0006cf",
+                "index": -1
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qFallbackTitle": "Выполнение бюджета по скидкам",
+        "qApprMaxGlyphCount": 7,
+        "qCardinal": 0,
+        "qSortIndicator": "D",
+        "qNumFormat": {
+          "qType": "F",
+          "qnDec": 2,
+          "qUseThou": 0,
+          "qFmt": "0,0%",
+          "qDec": ",",
+          "qThou": "  "
+        },
+        "qMin": -5.6091693080853515,
+        "qMax": 9.478348809128851,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qLibraryId": "c038ce78-b7d9-4428-9e9a-f78002bc1d69",
+        "qTrendLines": [],
+        "coloring": {
+          "gradient": {
+            "colors": [
+              {
+                "color": "#db353f",
+                "index": -1
+              },
+              {
+                "color": "#ff8b6c",
+                "index": -1
+              },
+              {
+                "color": "#61a9f1",
+                "index": -1
+              },
+              {
+                "color": "#02098e",
+                "index": -1
+              }
+            ],
+            "breakTypes": [
+              false,
+              false,
+              false
+            ],
+            "limits": [
+              0.4,
+              0.8,
+              0.9
+            ],
+            "limitType": "absolute"
+          }
+        },
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "QtqnPF",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "indicator",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": true,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [
+              {
+                "value": 0.8,
+                "gradient": false
+              },
+              {
+                "value": 0.9,
+                "gradient": false
+              },
+              {
+                "value": 0.4,
+                "gradient": false
+              }
+            ],
+            "paletteColors": [
+              {
+                "color": "#d6353f",
+                "icon": "",
+                "index": -1
+              },
+              {
+                "color": "#ff7d81",
+                "index": -1
+              },
+              {
+                "color": "#00c8fe",
+                "index": -1
+              },
+              {
+                "color": "#0006cf",
+                "index": -1
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qFallbackTitle": "Выполнение прогноза по скидкам",
+        "qApprMaxGlyphCount": 7,
+        "qCardinal": 0,
+        "qSortIndicator": "D",
+        "qNumFormat": {
+          "qType": "F",
+          "qnDec": 2,
+          "qUseThou": 0,
+          "qFmt": "0,0%",
+          "qDec": ",",
+          "qThou": "  "
+        },
+        "qMin": -2.4052962709340617,
+        "qMax": 9.077985713857919,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qLibraryId": "eddeb970-7540-4b7b-bfa0-d19d99531bd8",
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "ABKAAAM",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "indicator",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": true,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [
+              {
+                "value": 0.4,
+                "gradient": false
+              },
+              {
+                "value": 0.8,
+                "gradient": false
+              },
+              {
+                "value": 0.9,
+                "gradient": false
+              }
+            ],
+            "paletteColors": [
+              {
+                "color": "#d6353f",
+                "icon": "",
+                "index": -1
+              },
+              {
+                "color": "#ff7d81",
+                "index": -1
+              },
+              {
+                "color": "#00c8fe",
+                "index": -1
+              },
+              {
+                "color": "#0006cf",
+                "index": -1
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {
+          "gradient": {
+            "colors": [
+              {
+                "color": "#db353f",
+                "index": -1
+              },
+              {
+                "color": "#ff8b6c",
+                "index": -1
+              },
+              {
+                "color": "#61a9f1",
+                "index": -1
+              },
+              {
+                "color": "#02098e",
+                "index": -1
+              }
+            ],
+            "breakTypes": [
+              false,
+              false,
+              false
+            ],
+            "limits": [
+              0.4,
+              0.8,
+              0.9
+            ],
+            "limitType": "absolute"
+          }
+        },
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "ukPrZ",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "indicator",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": true,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [
+              {
+                "value": 0.8,
+                "gradient": false
+              },
+              {
+                "value": 0.9,
+                "gradient": false
+              },
+              {
+                "value": 0.4,
+                "gradient": false
+              }
+            ],
+            "paletteColors": [
+              {
+                "color": "#d6353f",
+                "icon": "",
+                "index": -1
+              },
+              {
+                "color": "#ff7d81",
+                "index": -1
+              },
+              {
+                "color": "#00c8fe",
+                "index": -1
+              },
+              {
+                "color": "#0006cf",
+                "index": -1
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      },
+      {
+        "qApprMaxGlyphCount": 0,
+        "qCardinal": 0,
+        "qSortIndicator": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+        },
+        "qMin": 0,
+        "qMax": 0,
+        "qError": {
+          "qErrorCode": 7005
+        },
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "coloring": {},
+        "isCustomFormatted": false,
+        "autoSort": true,
+        "cId": "AcqYdT",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        },
+        "representation": {
+          "type": "indicator",
+          "indicator": {
+            "showTextValues": true,
+            "applySegmentColors": true,
+            "position": "right"
+          },
+          "miniChart": {
+            "type": "sparkline",
+            "colors": {
+              "main": {
+                "index": 6
+              },
+              "max": {
+                "index": 0,
+                "color": "none"
+              },
+              "min": {
+                "index": 0,
+                "color": "none"
+              },
+              "first": {
+                "index": 0,
+                "color": "none"
+              },
+              "last": {
+                "index": 0,
+                "color": "none"
+              },
+              "positive": {
+                "index": 6
+              },
+              "negative": {
+                "index": 10,
+                "color": "#f93f17"
+              }
+            },
+            "showDots": true,
+            "yAxis": {
+              "scale": "local",
+              "position": "auto"
+            }
+          },
+          "imageSetting": "label",
+          "imageLabel": "",
+          "imageUrl": "",
+          "imageSize": "fitHeight",
+          "imagePosition": "topCenter"
+        },
+        "conditionalColoring": {
+          "segments": {
+            "limits": [
+              {
+                "value": 0.8,
+                "gradient": false
+              },
+              {
+                "value": 0.9,
+                "gradient": false
+              },
+              {
+                "value": 0.4,
+                "gradient": false
+              }
+            ],
+            "paletteColors": [
+              {
+                "color": "#d6353f",
+                "icon": "",
+                "index": -1
+              },
+              {
+                "color": "#ff7d81",
+                "index": -1
+              },
+              {
+                "color": "#00c8fe",
+                "index": -1
+              },
+              {
+                "color": "#0006cf",
+                "index": -1
+              }
+            ]
+          }
+        },
+        "quarantine": {
+          "qNumFormat": {},
+          "isCustomFormatted": false
+        }
+      }
+    ],
+    "qEffectiveInterColumnSortOrder": [
+      22,
+      0,
+      23,
+      24,
+      32,
+      33
+    ],
+    "qGrandTotalRow": [
+      {
+        "qText": "13  930  209,42",
+        "qNum": 13930209.423524404,
+        "qElemNumber": -1,
+        "qState": "X",
+        "qIsTotalCell": true
+      },
+      {
+        "qText": "8  756  037,06",
+        "qNum": 8756037.057181401,
+        "qElemNumber": -1,
+        "qState": "X",
+        "qIsTotalCell": true
+      },
+      {
+        "qText": "12  360  235,36",
+        "qNum": 12360235.359642979,
+        "qElemNumber": -1,
+        "qState": "X",
+        "qIsTotalCell": true
+      },
+      {
+        "qText": "159,1%",
+        "qNum": 1.5909262755003217,
+        "qElemNumber": -1,
+        "qState": "X",
+        "qIsTotalCell": true
+      },
+      {
+        "qText": "112,7%",
+        "qNum": 1.12701813664548,
+        "qElemNumber": -1,
+        "qState": "X",
+        "qIsTotalCell": true
+      }
+    ],
+    "qDataPages": [
+      {
+        "qMatrix": [
+          [
+            {
+              "qText": "Аквалор",
+              "qNum": "NaN",
+              "qElemNumber": 96,
+              "qState": "O"
+            }
+          ],
+          [
+            {
+              "qText": "Эссливер Форте®",
+              "qNum": "NaN",
+              "qElemNumber": 180,
+              "qState": "O"
+            }
+          ],
+          [
+            {
+              "qText": "Лавомакс®",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            }
+          ],
+          [
+            {
+              "qText": "Омнитус",
+              "qNum": "NaN",
+              "qElemNumber": 85,
+              "qState": "O"
+            }
+          ],
+          [
+            {
+              "qText": "Бактистатин",
+              "qNum": "NaN",
+              "qElemNumber": 146,
+              "qState": "O"
+            }
+          ],
+          [
+            {
+              "qText": "Исмиген",
+              "qNum": "NaN",
+              "qElemNumber": 68,
+              "qState": "O"
+            }
+          ],
+          [
+            {
+              "qText": "Матарен®Плюс",
+              "qNum": "NaN",
+              "qElemNumber": 17,
+              "qState": "O"
+            }
+          ],
+          [
+            {
+              "qText": "Левомеколь®",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            }
+          ]
+        ],
+        "qTails": [],
+        "qArea": {
+          "qLeft": 0,
+          "qTop": 0,
+          "qWidth": 1,
+          "qHeight": 8
+        }
+      },
+      {
+        "qMatrix": [
+          [
+            {
+              "qText": "3  571  219,66",
+              "qNum": 3571219.6618663,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "985  291,85",
+              "qNum": 985291.8460102994,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "854  114,84",
+              "qNum": 854114.8416226995,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "753  424,98",
+              "qNum": 753424.9800676003,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "594  462,07",
+              "qNum": 594462.0654763,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "495  475,66",
+              "qNum": 495475.6593734,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "402  542,99",
+              "qNum": 402542.99052480026,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "368  582,86",
+              "qNum": 368582.86441990006,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ]
+        ],
+        "qTails": [],
+        "qArea": {
+          "qLeft": 1,
+          "qTop": 0,
+          "qWidth": 1,
+          "qHeight": 8
+        }
+      },
+      {
+        "qMatrix": [
+          [
+            {
+              "qText": "731  350,92",
+              "qNum": 731350.9233813,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "573  800,87",
+              "qNum": 573800.8736877999,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "251  273,25",
+              "qNum": 251273.24639540003,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "221  874,14",
+              "qNum": 221874.1410991,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "85  722,13",
+              "qNum": 85722.13098629999,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "100  019,25",
+              "qNum": 100019.24858439999,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "76  710,60",
+              "qNum": 76710.599757,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "328  735,92",
+              "qNum": 328735.92352270003,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ]
+        ],
+        "qTails": [],
+        "qArea": {
+          "qLeft": 2,
+          "qTop": 0,
+          "qWidth": 1,
+          "qHeight": 8
+        }
+      },
+      {
+        "qMatrix": [
+          [
+            {
+              "qText": "765  184,89",
+              "qNum": 765184.8867218002,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "440  373,20",
+              "qNum": 440373.1984835,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "281  088,95",
+              "qNum": 281088.95476169995,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "213  477,89",
+              "qNum": 213477.89397829998,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "81  257,60",
+              "qNum": 81257.6012032,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "91  484,71",
+              "qNum": 91484.713494,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "70  634,87",
+              "qNum": 70634.87359049999,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "764  746,39",
+              "qNum": 764746.3868998,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ]
+        ],
+        "qTails": [],
+        "qArea": {
+          "qLeft": 3,
+          "qTop": 0,
+          "qWidth": 1,
+          "qHeight": 8
+        }
+      },
+      {
+        "qMatrix": [
+          [
+            {
+              "qText": "488,3%",
+              "qNum": 4.883045262806614,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "171,7%",
+              "qNum": 1.7171320072725929,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "339,9%",
+              "qNum": 3.3991475569933,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "339,6%",
+              "qNum": 3.3957313652476664,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "693,5%",
+              "qNum": 6.93475603833631,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "495,4%",
+              "qNum": 4.953803056771608,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "524,8%",
+              "qNum": 5.247553686191424,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "112,1%",
+              "qNum": 1.1212126148861503,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ]
+        ],
+        "qTails": [],
+        "qArea": {
+          "qLeft": 4,
+          "qTop": 0,
+          "qWidth": 1,
+          "qHeight": 8
+        }
+      },
+      {
+        "qMatrix": [
+          [
+            {
+              "qText": "466,7%",
+              "qNum": 4.667133033907785,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "223,7%",
+              "qNum": 2.237401934094353,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "303,9%",
+              "qNum": 3.03859268446459,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "352,9%",
+              "qNum": 3.529288049582248,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "731,6%",
+              "qNum": 7.315771776104184,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "541,6%",
+              "qNum": 5.415939346040534,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "569,9%",
+              "qNum": 5.6989270322547885,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "48,2%",
+              "qNum": 0.4819674479458419,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ]
+        ],
+        "qTails": [],
+        "qArea": {
+          "qLeft": 5,
+          "qTop": 0,
+          "qWidth": 1,
+          "qHeight": 8
+        }
+      }
+    ],
+    "qPivotDataPages": [],
+    "qStackedDataPages": [],
+    "qMode": "S",
+    "qNoOfLeftDims": -1,
+    "qTreeNodesOnDim": [],
+    "qColumnOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "columnOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "columnWidths": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ]
+  },
+  "script": "",
+  "search": {
+    "sorting": "inherit"
+  },
+  "showTitles": false,
+  "title": "",
+  "subtitle": "",
+  "footnote": "",
+  "disableNavMenu": false,
+  "showDetails": true,
+  "showDetailsExpression": false,
+  "totals": {
+    "show": true,
+    "position": "noTotals",
+    "label": "Итоги"
+  },
+  "scrolling": {
+    "horizontal": true,
+    "keepFirstColumnInView": false,
+    "keepFirstColumnInViewTouch": false
+  },
+  "multiline": {
+    "wrapTextInHeaders": true,
+    "wrapTextInCells": true
+  },
+  "visualization": "table",
+  "snapshotData": {
+    "object": {
+      "size": {
+        "w": 1210,
+        "h": 261
+      }
+    },
+    "rtl": false,
+    "parent": {
+      "h": 864,
+      "w": 1920
+    }
+  },
+  "visualizationType": "table",
+  "sourceObjectId": "EXyJ",
+  "sheetId": "d489e16e-2498-47f0-aedc-020f7e7ce167",
+  "timestamp": 1701696836240,
+  "isClone": false,
+  "supportExport": true
+}

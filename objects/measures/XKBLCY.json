@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "XKBLCY",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Выручка Бюджет (в валюте)",
+    "qDef": "-sum({$<#Бюджетная_Форма ={214}, #Бюджетный_Период = {201801003}, #Факт = {2} >}[_Факт_Сумма]*[Валюта_Курс_Пересчета])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Выручка Бюджет, ' & Only([Валюта_Перевода])",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#  ##0,00",
+      "qDec": ",",
+      "qThou": "  "
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Выручка Бюджет (в валюте)",
+    "description": "",
+    "tags": []
+  }
+}
