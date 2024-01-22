@@ -239,9 +239,7 @@
       "$text",
       "$hidden"
     ],
-    "qSrcTables": [
-      "КонструкторИзмеренийКонс_Сложный"
-    ],
+    "qSrcTables": [],
     "qAlwaysOneSelected": true
   },
   {
@@ -260,9 +258,7 @@
       "$text",
       "$hidden"
     ],
-    "qSrcTables": [
-      "КонструкторИзмеренийПростой"
-    ],
+    "qSrcTables": [],
     "qAlwaysOneSelected": true
   },
   {
@@ -272,9 +268,7 @@
       "$text",
       "$hidden"
     ],
-    "qSrcTables": [
-      "КонструкторИзмеренийСводный"
-    ]
+    "qSrcTables": []
   },
   {
     "qIsHidden": true,
@@ -283,9 +277,7 @@
       "$text",
       "$hidden"
     ],
-    "qSrcTables": [
-      "КонструкторПоказателейКонс_Сложный"
-    ],
+    "qSrcTables": [],
     "qAlwaysOneSelected": true
   },
   {
@@ -340,9 +332,7 @@
       "$text",
       "$hidden"
     ],
-    "qSrcTables": [
-      "КонструкторПоказателейПростой"
-    ],
+    "qSrcTables": [],
     "qAlwaysOneSelected": true
   },
   {
@@ -352,9 +342,7 @@
       "$text",
       "$hidden"
     ],
-    "qSrcTables": [
-      "КонструкторПоказателейСводный"
-    ]
+    "qSrcTables": []
   },
   {
     "qName": "Квартал",
