@@ -115,20 +115,6 @@
         }
       },
       {
-        "name": "LsDYEg",
-        "type": "filterpane",
-        "col": 8,
-        "row": 1,
-        "colspan": 4,
-        "rowspan": 8,
-        "bounds": {
-          "y": 5.555555555555555,
-          "x": 22.22222222222222,
-          "width": 11.11111111111111,
-          "height": 44.44444444444444
-        }
-      },
-      {
         "name": "PXRVZ",
         "type": "filterpane",
         "col": 21,
@@ -171,34 +157,6 @@
         }
       },
       {
-        "name": "hmwA",
-        "type": "filterpane",
-        "col": 0,
-        "row": 1,
-        "colspan": 4,
-        "rowspan": 8,
-        "bounds": {
-          "y": 5.555555555555555,
-          "x": 0,
-          "width": 11.11111111111111,
-          "height": 44.44444444444444
-        }
-      },
-      {
-        "name": "ZpvpNu",
-        "type": "filterpane",
-        "col": 4,
-        "row": 1,
-        "colspan": 4,
-        "rowspan": 8,
-        "bounds": {
-          "y": 5.555555555555555,
-          "x": 11.11111111111111,
-          "width": 11.11111111111111,
-          "height": 44.44444444444444
-        }
-      },
-      {
         "name": "fjskLa",
         "type": "filterpane",
         "col": 0,
@@ -224,6 +182,20 @@
           "x": 61.111111111111114,
           "width": 38.88888888888889,
           "height": 5.555555555555555
+        }
+      },
+      {
+        "name": "zjhm",
+        "type": "auto-chart",
+        "col": 0,
+        "row": 1,
+        "colspan": 12,
+        "rowspan": 8,
+        "bounds": {
+          "y": 5.555555555555555,
+          "x": 0,
+          "width": 33.33333333333333,
+          "height": 44.44444444444444
         }
       }
     ],
@@ -915,80 +887,6 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "hmwA",
-          "qType": "filterpane"
-        },
-        "qMetaDef": {},
-        "showTitles": false,
-        "title": "",
-        "subtitle": "",
-        "footnote": "",
-        "disableNavMenu": false,
-        "showDetails": true,
-        "showDetailsExpression": false,
-        "visualization": "filterpane",
-        "version": "0.13.6",
-        "qChildListDef": {
-          "qData": {}
-        }
-      },
-      "qChildren": [
-        {
-          "qProperty": {
-            "qInfo": {
-              "qId": "26d43ea7-fd7f-430e-a67a-9f2bb849db30",
-              "qType": "listbox"
-            },
-            "qMetaDef": {},
-            "qListObjectDef": {
-              "qLibraryId": "b4235794-c5b9-49a2-8dae-717676d89489",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByState": 1,
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "NGEcjNE"
-              },
-              "qFrequencyMode": "N",
-              "qShowAlternatives": true,
-              "qInitialDataFetch": [],
-              "qExpressions": [],
-              "showTitles": true,
-              "title": "",
-              "subtitle": "",
-              "footnote": "",
-              "disableNavMenu": false,
-              "showDetails": true,
-              "showDetailsExpression": false,
-              "qOtherTotalSpec": {}
-            },
-            "showTitles": true,
-            "title": "Бизнес-Юнит",
-            "subtitle": "",
-            "footnote": "",
-            "disableNavMenu": false,
-            "showDetails": true,
-            "showDetailsExpression": false,
-            "visualization": "listbox"
-          },
-          "qChildren": []
-        }
-      ]
-    },
-    {
-      "qProperty": {
-        "qInfo": {
           "qId": "QmUc",
           "qType": "filterpane"
         },
@@ -1049,157 +947,6 @@
             },
             "showTitles": true,
             "title": "Бизнес-Юнит",
-            "subtitle": "",
-            "footnote": "",
-            "disableNavMenu": false,
-            "showDetails": true,
-            "showDetailsExpression": false,
-            "visualization": "listbox"
-          },
-          "qChildren": []
-        }
-      ]
-    },
-    {
-      "qProperty": {
-        "qInfo": {
-          "qId": "LsDYEg",
-          "qType": "filterpane"
-        },
-        "qMetaDef": {},
-        "showTitles": false,
-        "title": "",
-        "subtitle": "",
-        "footnote": "",
-        "disableNavMenu": false,
-        "showDetails": true,
-        "showDetailsExpression": false,
-        "visualization": "filterpane",
-        "version": "0.13.6",
-        "qChildListDef": {
-          "qData": {}
-        }
-      },
-      "qChildren": [
-        {
-          "qProperty": {
-            "qInfo": {
-              "qId": "7d28f3c6-9156-407a-9246-0ad028cdb390",
-              "qType": "listbox"
-            },
-            "qMetaDef": {},
-            "qListObjectDef": {
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [
-                  "Факт_Бизнес_Юнит"
-                ],
-                "qFieldLabels": [
-                  "Факт_Бизнес_Юнит"
-                ],
-                "qSortCriterias": [
-                  {
-                    "qSortByState": 1,
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "ApCT"
-              },
-              "qFrequencyMode": "N",
-              "qShowAlternatives": true,
-              "qInitialDataFetch": [],
-              "qExpressions": [],
-              "showTitles": true,
-              "title": "",
-              "subtitle": "",
-              "footnote": "",
-              "disableNavMenu": false,
-              "showDetails": true,
-              "showDetailsExpression": false,
-              "qOtherTotalSpec": {}
-            },
-            "showTitles": true,
-            "title": "Код Бизнес_Юнит",
-            "subtitle": "",
-            "footnote": "",
-            "disableNavMenu": false,
-            "showDetails": true,
-            "showDetailsExpression": false,
-            "visualization": "listbox"
-          },
-          "qChildren": []
-        }
-      ]
-    },
-    {
-      "qProperty": {
-        "qInfo": {
-          "qId": "ZpvpNu",
-          "qType": "filterpane"
-        },
-        "qMetaDef": {},
-        "showTitles": false,
-        "title": "",
-        "subtitle": "",
-        "footnote": "",
-        "disableNavMenu": false,
-        "showDetails": true,
-        "showDetailsExpression": false,
-        "visualization": "filterpane",
-        "version": "0.13.6",
-        "qChildListDef": {
-          "qData": {}
-        }
-      },
-      "qChildren": [
-        {
-          "qProperty": {
-            "qInfo": {
-              "qId": "d97094a3-736a-44c9-9b37-484aafced9ba",
-              "qType": "listbox"
-            },
-            "qMetaDef": {},
-            "qListObjectDef": {
-              "qLibraryId": "23a44e32-e25c-457c-ac23-8c398c110fd7",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByState": 1,
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "pSYFj"
-              },
-              "qFrequencyMode": "N",
-              "qShowAlternatives": true,
-              "qInitialDataFetch": [],
-              "qExpressions": [],
-              "showTitles": true,
-              "title": "",
-              "subtitle": "",
-              "footnote": "",
-              "disableNavMenu": false,
-              "showDetails": true,
-              "showDetailsExpression": false,
-              "qOtherTotalSpec": {}
-            },
-            "showTitles": true,
-            "title": "Страна",
             "subtitle": "",
             "footnote": "",
             "disableNavMenu": false,
@@ -1298,6 +1045,296 @@
           "qChildren": []
         }
       ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "zjhm",
+          "qType": "auto-chart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [
+            {
+              "qLibraryId": "AKFpZA",
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": []
+              },
+              "qSortBy": {
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": []
+        },
+        "script": "",
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": true,
+        "showDetailsExpression": false,
+        "visualization": "auto-chart",
+        "qUndoExclude": {
+          "hashCode": -1576091893,
+          "generated": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [
+                {
+                  "qLibraryId": "AKFpZA",
+                  "qDef": {
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "eGwaTWZ",
+                    "numFormatFromTemplate": true,
+                    "measureAxis": {
+                      "min": 0,
+                      "max": 100
+                    },
+                    "conditionalColoring": {
+                      "useConditionalColoring": false,
+                      "singleColor": 3,
+                      "paletteSingleColor": {
+                        "index": 6
+                      },
+                      "segments": {
+                        "limits": [],
+                        "paletteColors": [
+                          {
+                            "index": 6
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  }
+                }
+              ],
+              "qInterColumnSortOrder": [
+                0
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 500,
+                  "qHeight": 10
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            },
+            "script": "",
+            "showTitles": false,
+            "title": "",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": true,
+            "showDetails": true,
+            "showDetailsExpression": false,
+            "qStateName": "Фильтьр",
+            "components": [],
+            "showMeasureTitle": true,
+            "showSecondMeasureTitle": true,
+            "textAlign": "center",
+            "layoutBehavior": "relative",
+            "fontSize": "M",
+            "useLink": false,
+            "sheetLink": "",
+            "openUrlInNewTab": true,
+            "tooltip": {
+              "hideBasic": false,
+              "chart": {
+                "style": {
+                  "size": "medium"
+                }
+              }
+            },
+            "qInfo": {
+              "qType": "kpi"
+            },
+            "visualization": "kpi",
+            "version": "0.12.3",
+            "isRecommended": true,
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {}
+            },
+            "recommendation": {
+              "options": {},
+              "analysis": {
+                "analysis": "fact",
+                "analysisGroup": "fact",
+                "description": {
+                  "short": "Вычисленная мера (ключевой показатель эффективности)",
+                  "long": "Показывает вычисленную меру."
+                },
+                "title": "Выручка Бюджет, л/в",
+                "titleTemplate": [
+                  {
+                    "msgId": "cao.chart.fact.title",
+                    "msgParams": {
+                      "$$1": 0
+                    }
+                  }
+                ],
+                "msrs": [
+                  {
+                    "expr": "AKFpZA",
+                    "overridenMsrFormat": {
+                      "qType": "F",
+                      "qnDec": 2,
+                      "qUseThou": 0,
+                      "qFmt": "#  ##0,00",
+                      "qDec": ",",
+                      "qThou": "  "
+                    },
+                    "masterMsrFormat": {
+                      "qType": "F",
+                      "qnDec": 2,
+                      "qUseThou": 0,
+                      "qFmt": "#  ##0,00",
+                      "qDec": ",",
+                      "qThou": "  "
+                    },
+                    "coloring": {},
+                    "cType": "eLibItem",
+                    "libId": "AKFpZA",
+                    "label": "Выручка Бюджет, л/в",
+                    "fieldStats": {
+                      "dataType": "double",
+                      "valueRange": {
+                        "min": 10554860533.150002,
+                        "max": 10554860533.150002
+                      },
+                      "classification": [
+                        "measure"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "isExtendedAnalysis": false,
+              "matchRecord": {
+                "analysisPrecedentId": "Msr-Aggr",
+                "matches": [
+                  {
+                    "slot": "$$1",
+                    "slotRole": "measure",
+                    "libId": "AKFpZA",
+                    "libIdLabel": "Выручка Бюджет, л/в"
+                  }
+                ],
+                "precedentStats": {
+                  "matchedFields": 0,
+                  "uniquePrecedents": 0
+                }
+              },
+              "relevance": 1,
+              "analysisIntentRelevance": 0.09000000000000001
+            }
+          }
+        }
+      },
+      "qChildren": []
     }
   ]
 }
